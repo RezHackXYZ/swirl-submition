@@ -8,4 +8,3 @@
 -   has a cusom link to my email
 -   has a image
 -   has a 404 page
-- 
