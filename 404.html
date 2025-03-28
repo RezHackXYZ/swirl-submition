@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Swirl Submition</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Delius&family=Poppins:wght@100&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			hr {
+				width: 100%;
+				border: 0.5px solid #232323;
+			}
+			#foot {
+				background-color: rgb(209, 209, 209);
+				color: white;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				margin: 0;
+				color: #000;
+			}
+			h1,
+			h3,
+			h4,
+			h5 {
+				margin: 5px;
+			}
+			h3 {
+				color: rgb(209, 209, 209);
+			}
+			h5 {
+				color: rgb(142, 142, 142);
+			}
+			html,
+			body,
+			#text {
+				height: 100%;
+				margin: 0;
+			}
+			code {
+				background-color: #3f3f3f;
+				padding: 10px;
+				border-radius: 10px;
+			}
+			body {
+				font-family: "Poppins", sans-serif;
+				font-weight: 100;
+				font-style: normal;
+				background-color: black;
+				color: white;
+			}
+			#text {
+				display: grid;
+				height: 100%;
+				place-content: center;
+			}
+			span {
+				cursor: default;
+				font-family: "Delius", cursive;
+				font-weight: 400;
+				font-style: normal;
+				display: inline-block;
+				transition: all 0.5s linear;
+				transform-style: preserve-3d;
+				border: solid 1px white;
+				border-radius: 20px;
+				padding: 10px;
+			}
+			span:hover {
+				transform: perspective(5000px) rotateX(60deg);
+			}
+			.notyet {
+				border-radius: 10px;
+				font-family: "Delius", cursive;
+				font-weight: 400;
+				font-style: normal;
+				border: solid 1px white;
+				background-color: rgb(155, 219, 58);
+			}
+			.done {
+				border-radius: 10px;
+				font-family: "Delius", cursive;
+				font-weight: 400;
+				font-style: normal;
+				border: solid 1px white;
+				background-color: rgb(110, 0, 0);
+				color: white;
+			}
+
+			#img {
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="text">
+			<h1>
+				Hey&nbsp;
+				<span>🫵You🫵</span>
+				&nbsp;Do you not have brains???<br />
+				Oh right you don't... 🤣🤣🤣
+			</h1>
+			<hr />
+			<h3>This page is <code>404.html</code> !!!</h3>
+			<h3>The Correct page is <code>index.html</code> !!!</h3>
+			<hr />
+			<h3>
+				So now shut up, <br />stop comlaning that i inslted you<br />
+				and go to the right page!!!
+			</h3>
+			<hr />
+			<div id="button">
+				<button class="notyet" onclick="changecell()">
+					<h4>➡ Take me to the coorect page!! ➡</h4>
+				</button>
+			</div>
+			<img id="img" src="https://hackclub.com/404/dinobox.svg" alt="404">
+		</div>
+		<div id="foot">
+			<h4>
+				Proudly from the dumb brain of
+				<a href="https://github.com/rezhackxyz" target="_blank"
+					>RezHackXYZ</a
+				><br />Have a issue?
+				<strike
+					>email <a href="mailto:rhythmupa@gmail.com">me</a></strike
+				>
+				I dont CARE!!
+			</h4>
+		</div>
+
+		<script>
+			function changecell() {
+				document.getElementById("button").innerHTML =
+					"<button class='done'><h4>Go ur self!!! 🤣🤣🤣<h4/></button>";
+			}
+		</script>
+	</body>
+</html>
