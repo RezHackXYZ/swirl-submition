@@ -23,14 +23,17 @@
 			#foot {
 				background-color: rgb(209, 209, 209);
 				color: white;
+				position: absolute;
 				width: 100%;
 				color: #000;
 			}
 			h1,
 			h3,
 			h4,
-			h5 {
-				margin: 5px;
+			h5,
+			p,
+			ol {
+				margin: 0px;
 			}
 			h3 {
 				color: rgb(209, 209, 209);
@@ -97,53 +100,63 @@
 			#img {
 				height: 200px;
 			}
+
+			a {
+				color: #ffffff;
+			}
+
+			.footlink {
+				color: #000000;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="foot">
 			<h4>
 				Proudly from the dumb brain of
-				<a href="https://github.com/rezhackxyz" target="_blank"
+				<a
+					class="footlink"
+					href="https://github.com/rezhackxyz"
+					target="_blank"
 					>RezHackXYZ</a
 				><br />Have a issue?
 				<strike
-					>email <a href="mailto:rhythmupa@gmail.com">me</a></strike
+					>email
+					<a
+						class="footlink"
+						href="mailto:rhythmupa@gmail.com"
+						target="_blank"
+						>me</a
+					></strike
 				>
 				I dont CARE!!
 			</h4>
 		</div>
 		<div id="text">
 			<h1>
-				Hey&nbsp;
+				So&nbsp;
 				<span>🫵You🫵</span>
-				&nbsp;Do you not have brains???<br />
-				Oh right you don't... 🤣🤣🤣
+				&nbsp;wana to be poor??<br />
+			</h1>
+			<h1>
+				Awesome! Kindly give me all your money! <br />using one of the
+				methods given below!<br />and you will then be poor!!!
 			</h1>
 			<hr />
-			<h3>This page is <code>404.html</code> !!!</h3>
-			<h3>The Correct page is <code>index.html</code> !!!</h3>
+
+			<a
+				href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+				target="_blank"
+				><img
+					src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/ca87b390bf8ff368b180411dce9578ca5e19a701_image.png"
+			/></a>
+			<h3>Click the image to give me your money!</h3>
 			<hr />
-			<h3>
-				So now shut up, <br />stop comlaning that i inslted you<br />
-				and go to the right page!!!
-			</h3>
-			<hr />
-			<div id="button"></div>
-			<img
-				id="img"
-				src="https://hackclub.com/404/dinobox.svg"
-				alt="404"
-			/>
+			<a href="./index.html"
+				><button class="done">
+					<h4>⬅ WHAT... No, Thanks ill be rich insterd! ⬅</h4>
+				</button></a
+			>
 		</div>
-
-		<script>
-			document.getElementById("button").innerHTML =
-				"<button class='notyet' onclick='changecell()'><h4>➡ Take me to the coorect page!! ➡</h4></button>";
-
-			function changecell() {
-				document.getElementById("button").innerHTML =
-					"<button class='done'><h4>Go ur self!!! 🤣🤣🤣<h4/></button>";
-			}
-		</script>
 	</body>
 </html>
